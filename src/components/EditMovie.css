@@ -1,0 +1,69 @@
+/* Basic styling for the form */
+form {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+/* Styling for form labels */
+label {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+/* Styling for form inputs */
+input[type="text"],
+input[type="number"] {
+  width: 100%;
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus {
+  border-color: #5b9bd5;
+  outline: none;
+}
+
+/* Error styling for form fields */
+.error {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+input.error {
+  border-color: red;
+}
+
+/* Style for the save button */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Optional: add a disabled state for the button if needed */
+button:disabled {
+  background-color: #d3d3d3;
+  cursor: not-allowed;
+}
